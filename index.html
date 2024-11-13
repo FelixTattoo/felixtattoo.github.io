@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/basic.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <title>Felix Tattoo</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="ctn_header d-flex">
+                <h2 class="headline2 text-center text-shadow">FelixTatto</h2>
+                <div class="headerOptions d-flex">
+                    <a class="text-click text-click-underline" href="#aboutus"><p class="text-st text-center text-shadow text-color-white">Про нас</p></a>
+                    <a class="text-click text-click-underline" href="#targetElement"><p class="text-st text-center text-shadow text-color-white">Послуги</p></a>
+                    <a class="text-click text-click-underline" href="#contacts"><p class="text-st text-center text-shadow text-color-white">Контакти</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="site-banner-image pre-main">
+            <div class="container">
+                <div class="site-banner d-flex-column">
+                    <h1 class="text-headline text-center">Ваша ідея – наша майстерність<br> Насолоджуйтеся процесом і
+                        результатом<br> без зайвих відчуттів</h1>
+                    <p class="text-st text-center">Години роботи: з 09:00 до 18:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="aboutus">
+            <div class="aboutus">
+                <div class="aboutusImages">
+                    <img class="au_image3" src="./images/image2.webp" alt="" loading="lazy">
+                    <img class="au_image2" src="./images/image1.webp" alt="" loading="lazy">
+                    <img class="au_image1" src="./images/image3_1.webp" alt="" loading="lazy">
+                </div>
+                <div class="aboutusContent d-flex-column">
+                    <h2 class="headline2">Про нас</h2>
+                    <p class="text-st">У FelixTattoo ми прагнемо, щоб кожен клієнт почувався спокійно та впевнено під
+                        час нанесення татуювання. Завдяки професіоналізму та ретельному підходу наші майстри допомагають
+                        вам зосередитись на результаті, мінімізуючи будь-який дискомфорт</p>
+                    <p class="text-st">Години роботи: з 09:00 до 18:00</p>
+                </div>
+            </div>
+        </div>
+        <div class="otherContent pre-main" id="targetElement">
+            <div class="services container">
+                <div>
+                    <h2 class="headline2 text-center text-color-st">Послуги</h2>
+                    <p class="text-st text-center text-color-st">FelixTattoo пропонує новий стандарт комфорту. Отримайте
+                        татуювання без зайвого дискомфорту завдяки нашій сучасній методиці, що дозволяє знизити або навіть повністю
+                        усунути неприємні відчуття.
+                    </p>
+                    <div class="serviceGallery">
+                        <div class="serviceCard">
+                            <img class="img_card" src="./images/cardImg.webp" alt="">
+                            <div class="wrp_cardText d-flex">
+                                <p class="text-st">Маленьке татуювання</p>
+                                <p class="text-st">2000 грн</p>
+                            </div>
+                        </div>
+                        <div class="serviceCard">
+                            <img class="img_card" src="./images/cardImg.webp" alt="">
+                            <div class="wrp_cardText d-flex">
+                                <p class="text-st">Маленьке татуювання</p>
+                                <p class="text-st">2000 грн</p>
+                            </div>
+                        </div>
+                        <div class="serviceCard">
+                            <img class="img_card" src="./images/cardImg.webp" alt="">
+                            <div class="wrp_cardText d-flex">
+                                <p class="text-st">Маленьке татуювання</p>
+                                <p class="text-st">2000 грн</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="contacts">
+                <h2 class="headline2 text-center text-color-st">Контакти</h2>
+                <div class="contacts d-flex-column">
+                    <div class="contactItem d-flex">
+                        <div class="wrp_contactTitle d-flex">
+                            <img class="icn_contact" src="./images/telephone-call.webp" alt="">
+                            <p class="text-st text-color-st">Phone:</p>
+                        </div>
+                        <p class="text-st text-color-st">+0999999999</p>
+                    </div>
+                    <div class="contactItem d-flex">
+                        <div class="wrp_contactTitle d-flex">
+                            </a><img class="icn_contact" src="./images/email.webp" alt="">
+                            <p class="text-st text-color-st">Email:</p>
+                        </div>
+                        <p class="text-st text-color-st">+0999999999</p>
+                    </div>
+                    <div class="contactItem d-flex">
+                        <div class="wrp_contactTitle d-flex">
+                            <a href=""><img class="icn_contact" src="./images/instagram.webp" alt=""></a>
+                            <p class="text-st text-color-st">Instagram:</p>
+                        </div>
+                        <p class="text-st text-color-st">+0999999999</p>
+                    </div>
+                    <div class="contactItem d-flex">
+                        <div class="wrp_contactTitle d-flex">
+                            <a href=""><img class="icn_contact" src="./images/telegram.webp" alt=""></a>
+                            <p class="text-st text-color-st">Telegram:</p>
+                        </div>
+                        <p class="text-st text-color-st">+0999999999</p>
+                    </div>
+                </div>
+            </div>
+            <div id="map" style="height: 412px; width: 100%; margin-top: 48px;"></div>
+        </div>
+        <div class="ctn_footer">
+            <div class="container">
+                <div class="footer d-flex-column">
+                    <div class="d-flex-space-between">
+                        <div>
+                            <p class="headline2">FelixTattoo</p>
+                        </div>
+                        <div class="socials d-flex-center">
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="d-flex-space-between">
+                        <div class="footerPages d-flex">
+                            <div>
+                                <p class="text-st">Developed by: Vladyslav Mialovskyi</p>
+                            </div>
+                        </div>
+                        <p class="text-st text-color-white">© 2024. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script>
+    // Ініціалізація карти
+    const map = L.map('map').setView([50.4501, 30.5234], 13); // Початкові координати і масштаб
+
+    // Додавання тайлів карти
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors',
+    }).addTo(map);
+
+    // Додавання маркера за координатами (для заданої адреси)
+    const marker = L.marker([50.4501, 30.5234]).addTo(map);
+    marker.bindPopup("Вул. Київська, 1<br>м.Київ").openPopup();
+
+    document.addEventListener("scroll", function () {
+        const targetElement = document.getElementById("targetElement");
+        const scrollPosition = window.scrollY; // Позиція скролу
+        const elementPosition = targetElement.offsetTop; // Позиція елемента відносно верху сторінки
+        const headerDiv = document.querySelector('.ctn_header');
+        const elements = headerDiv.querySelectorAll('h2, p, a');
+
+        if (scrollPosition >= elementPosition) {
+
+            elements.forEach((elem)=>{
+                elem.classList.add("scrolled");
+            })
+        } else {
+            elements.forEach((elem)=>{
+                elem.classList.remove("scrolled");
+            })
+        }
+    });
+</script>
+
+</html>
