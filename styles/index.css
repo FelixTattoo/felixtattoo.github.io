@@ -103,7 +103,7 @@
     gap: 20px;
     place-items: center;
     /* Центрування вмісту сітки */
-    margin-top: 17px;
+    margin-top: 37px;
 }
 
 @media (max-width: 1366px) {
@@ -129,48 +129,48 @@
 
     .aboutusImages {
         width: 10px;
-       height: 375px;
+        height: 375px;
     }
 
     .au_image1 {
 
         width: 215px;
         height: 146px;
-    
+
         border-radius: 16px;
-    
+
         object-fit: cover;
         position: absolute;
-    
+
         top: 178px;
         left: -225px;
     }
-    
+
     .au_image2 {
-    
+
         width: 199px;
         height: 215px;
-    
+
         border-radius: 16px;
-    
+
         object-fit: cover;
         position: absolute;
-    
+
         top: 7px;
         left: -85px;
         z-index: 2;
     }
-    
+
     .au_image3 {
-    
+
         width: 174px;
         height: 187px;
-    
+
         border-radius: 16px;
-    
+
         object-fit: cover;
         position: absolute;
-    
+
         left: 25px;
         top: 193px
     }
@@ -185,6 +185,11 @@
 }
 
 @media (max-width: 760px) {
+
+    #aboutus {
+        display: none;
+    }
+
     .serviceGallery {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -225,48 +230,48 @@
 
     .aboutusImages {
         width: 10px;
-       height: 375px;
+        height: 375px;
     }
 
     .au_image1 {
 
-        width: 215px;
-        height: 146px;
-    
+        width: 185px;
+        height: 116px;
+
         border-radius: 16px;
-    
+
         object-fit: cover;
         position: absolute;
-    
+
         top: 178px;
-        left: -225px;
+        left: -195px;
     }
-    
+
     .au_image2 {
-    
+
         width: 199px;
         height: 215px;
-    
+
         border-radius: 16px;
-    
+
         object-fit: cover;
         position: absolute;
-    
+
         top: 7px;
         left: -85px;
         z-index: 2;
     }
-    
+
     .au_image3 {
-    
+
         width: 174px;
         height: 187px;
-    
+
         border-radius: 16px;
-    
+
         object-fit: cover;
         position: absolute;
-    
+
         left: 25px;
         top: 193px
     }
@@ -275,16 +280,20 @@
 .serviceCard {
 
     width: 354px;
-    height: 389px;
+    height: 76px;
     border-radius: 16px;
     box-shadow: 4px 6px 14px 0 rgba(0, 0, 0, 0.15);
     background: #ff8da2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .img_card {
 
     width: 100%;
-    height: 313px;
+    height: 0px;
 
     border-top-right-radius: 18px;
     border-top-left-radius: 18px;
@@ -292,7 +301,7 @@
 
 .wrp_cardText {
 
-    margin-top: 24px;
+    /* margin-top: 24px; */
     padding: 0px 18px;
 
     align-items: center;
